@@ -10,11 +10,13 @@ codeBtn.addEventListener('click', () => {
     inputText.value = decodeText(text);
     outputText.value = '';
     codeBtn.textContent = 'Codificar';
+    inputText.placeholder = 'Digite ou cole aqui o texto a ser codificado';
     isEncoded = false;
   } else {
     outputText.value = encodeText(text);
     inputText.value = '';
     codeBtn.textContent = 'Descodificar';
+    inputText.placeholder = 'Veja o texto codificado no lado direito. Se quiser retornar ao texto original, aperte o botão "Descodificar". ';
     isEncoded = true;
   }
 });
