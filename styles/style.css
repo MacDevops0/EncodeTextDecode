@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -16,21 +17,32 @@ body {
 
 .input-box,
 .output-box {
+  background-color: black;
   width: 400px;
   height: 300px;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
+  text-align: center;
+  align-items: center;
 }
 
 textarea {
+  background-color: black;
+  color: white;
   width: 100%;
   height: 100%;
   resize: none;
   border: none;
   outline: none;
-  padding: 10px;
-  font-size: 16px;
+  padding: 2px;
+  font-size: 18px;
+} 
+
+textarea::placeholder { /* Aqui seleciono o texto do placeholder dentro dos elementos <textarea>, */
+  color: #999;        /* e adiciono as propriedades CSS desejadas */
+  font-style: italic;
+  text-align: left;
 }
 
 .button-box {

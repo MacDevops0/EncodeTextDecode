@@ -16,7 +16,7 @@ codeBtn.addEventListener('click', () => {
     outputText.value = encodeText(text);
     inputText.value = '';
     codeBtn.textContent = 'Descodificar';
-    inputText.placeholder = 'Veja o texto codificado no lado direito. Se quiser retornar ao texto original, aperte o botão "Descodificar". ';
+    inputText.placeholder = 'Veja o texto codificado no lado direito. Se quiser retornar ao texto original, aperte o botão "Descodificar".';
     isEncoded = true;
   }
 });
