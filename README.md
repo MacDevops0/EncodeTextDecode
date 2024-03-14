@@ -1,3 +1,4 @@
+Este é um projeto simples sugerido pela Alura que consiste na criação de uma aplicação web para criptografar um texto original e em seguida poder descriptogra-lo de volta ao original.
 Aqui está a lógica por trás das funções encodeText e decodeText:
 A função encodeText recebe o texto a ser codificado como entrada.
 É definido um deslocamento fixo de 3 posições no alfabeto (shift = 3).
