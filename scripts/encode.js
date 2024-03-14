@@ -5,7 +5,7 @@ const codeBtn = document.getElementById('code-btn');
 let isEncoded = false;
 
 codeBtn.addEventListener('click', () => {
-  const text = inputText.value;
+  const text = isEncoded ? outputText.value : inputText.value;
   if (isEncoded) {
     inputText.value = decodeText(text);
     outputText.value = '';

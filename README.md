@@ -18,3 +18,17 @@ Com essa implementação, quando você digitar um texto no campo de entrada e cl
 Ao clicar em "Descodificar", o texto codificado será decodificado de volta ao texto original.
 
 Observe que essa é apenas uma implementação simples da cifra de César para fins de exemplo. Em aplicações reais, você pode querer usar algoritmos de criptografia mais seguros e robustos.
+
+As alterações feitas no JavaScript são:
+
+    Após a codificação do texto, o campo de entrada é limpo com inputText.value = '';.
+    Após a descodificação do texto, o campo de saída é limpo com outputText.value = ''; e o texto descodificado é exibido no campo de entrada com inputText.value = decodeText(text);.
+
+Com essas alterações, o comportamento do aplicativo é o seguinte:
+
+    Quando o botão "Codificar" é clicado, o texto no campo de entrada é codificado e exibido no campo de saída. O campo de entrada é limpo.
+    Quando o botão "Descodificar" é clicado, o texto codificado no campo de saída é decodificado e exibido no campo de entrada. O campo de saída é limpo.
+    
+Dessa forma, o campo de entrada sempre exibe o texto original ou descodificado, e o campo de saída é usado apenas para exibir o texto codificado temporariamente.
+
+(fim)
