@@ -124,3 +124,9 @@ button {
   color: white;
   cursor: pointer;
 }
+
+@media (max-width: 600px){
+  .body{
+    flex-direction: column;
+  }
+}
