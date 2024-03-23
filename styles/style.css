@@ -181,7 +181,7 @@ button {
 }
 
 @media screen and (max-width: 768px){
-  .challenge__content, .challenge__content___boxes, .challenge__aluralogo___animation{
+  .challenge__content, .challenge__aluralogo___animation{
     display: block;
     flex-direction: column;
   }
