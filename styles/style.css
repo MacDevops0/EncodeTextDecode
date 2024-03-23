@@ -185,7 +185,12 @@ button {
     display: block;
     flex-direction: column;
   }
-  .challenge__header___menu{
-    gap:  32px;
+  .challenge__header{
+    gap: 24px;
+
+  }
+  .challenge__header___menulink{
+    margin: 14px 10px 14px 50px;
+    gap: 32px;
   }
 }
