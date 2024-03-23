@@ -83,7 +83,9 @@ body{
     font-weight: 400;
     font-size: 1.5rem;
     animation: bounce;
+    animation-delay: 3s;
     animation-duration: 3s;
+    /*animation-timing-function: linear;*/
 }
 
 .apresentacao__links__navegacao{
@@ -102,9 +104,8 @@ body{
     font-family: var(--fonte-secundaria);
     cursor: pointer;
     animation: heartBeat;
-    animation-iteration-count: 1;  
-    animation-delay: 1.6s;
-    animation-duration: 2.4s; 
+    animation-delay: 4.6s;
+    animation-duration: 3s;
 }
 
 .apresentacao__links__navegacao:hover{

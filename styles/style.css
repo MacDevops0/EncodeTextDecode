@@ -6,6 +6,7 @@
   --cor-secundaria: #F6F6F6;
   --cor-terciaria: #22D4FD;
   --cor-hover: #272727;
+  
   --fonte-primaria: 'Krona One', sans-serif;
   --fonte-secundaria: 'Chakra Petch',sans-serif;
   --fonte-terciaria: 'Montserrat', sans-serif;
@@ -24,8 +25,7 @@ body {
 .challenge__header {
   display: flex;
   margin-top: auto;
-  padding: 2% 0% 0% 15%;/*
-  padding: 0%;*/
+  padding: 2% 0% 0% 15%;
   justify-content: left;
   gap: 5rem;
 }
@@ -181,8 +181,6 @@ button {
 }
 
 @media screen and (max-width: 768px){
-  
-
   .challenge__content{
     display: block;
     flex-direction: column;
