@@ -10,7 +10,16 @@ body {
   flex-direction: column;
 }
 
-.header {
+.challenge__container {
+  display:block;
+  justify-content: center;
+  align-items:normal;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.challenge__container___header {
   display: flex;
   justify-content:left;
   align-items: left;
@@ -19,17 +28,18 @@ body {
   margin: 0;
 }
 
-.header img {
+.challenge__container___header img {
   height: 100%;
+  width: auto;
 }
 
-.title-container {
+.Challenge__container___title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.title-container h1 {
+.Challenge__container___title h1 {
   font-family:'Chakra Petch',sans-serif;
   font-weight:600;
   font-size:4rem;
@@ -62,21 +72,12 @@ body {
   }
 }
 
-.content {
+.challenge__content {
   display: flex;
   align-items: center;
   text-align: center;
   gap:  30px;
   justify-content: center;
-}
-
-.challenge__container {
-  display:block;
-  justify-content: center;
-  align-items:normal;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
 }
 
 .input-box,
@@ -120,14 +121,14 @@ button {
   font-size: 16px;
   border-radius: 5px;
   border: none;
-  background-color: #4CAF50;
+  background-color: black;
   color: white;
   cursor: pointer;
 }
 
-@media (max-width: 600px){
-  .header{
-    display: flex;
+@media screen and (max-width: 768px){
+  .challenge__container{
+    display: block;
     flex-direction: column;
   }
 }
